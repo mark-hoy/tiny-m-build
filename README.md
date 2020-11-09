@@ -16,6 +16,8 @@ Sherpa Mini-Extruder https://github.com/Annex-Engineering/Sherpa_Mini-Extruder
 
 Hinged Top Hat - https://github.com/hartk1213/VoronUsers/tree/master/printer_mods%2Fhartk1213%2FVoron0_Hinged_Top_Hat
 
-motion controller - BIGTREETECH SKR Mini E3 V2.0 New Upgrade Control Board 32Bit with TMC2209
+motion controller - BIGTREETECH SKR Mini E3 V2.0 New Upgrade Control Board 32Bit with TMC2209 
 
 job control - Raspberry Pi 3 or 4?
+
+T8x4 ptfe coated Lead Screw + POM - 215mm	 *Note: may have to cut to length as this isn't standard.

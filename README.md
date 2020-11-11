@@ -21,3 +21,5 @@ motion controller - BIGTREETECH SKR Mini E3 V2.0 New Upgrade Control Board 32Bit
 job control - Raspberry Pi 3 or 4?
 
 T8x4 ptfe coated Lead Screw + POM - 215mm	 *Note: may have to cut to length as this isn't standard.
+
+all images so far from Xile on Voron group on discord

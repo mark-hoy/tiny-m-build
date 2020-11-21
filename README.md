@@ -1,6 +1,6 @@
 # tiny-m-build
 
-WORK IN PROGRESS
+## WORK IN PROGRESS
 
 This is my particular spin on the Tiny-M build, a variant of the Voron V0 using Mitsumi 2020 Extrusions and Nema 17 motors.  The Voron machines are home build high performance printers. With the V0 being the smallest of the series. The numbering scheme, V0, V1, V2 represent different machines, so don't get confused that's it's a revision.
 
@@ -28,5 +28,15 @@ T8x4 ptfe coated Lead Screw + POM - 215mm	 *Note: may have to cut to length as t
 all images so far from Xile on Voron group on discord
 
 
-My preliminary BOM
+## My preliminary BOM
 https://docs.google.com/spreadsheets/d/1UV62ADl2gtK5vL0fV1nwevR6O9Ppzs0MBe7jnsI-jo4/edit?usp=sharing
+
+## Build Platform + Plate Information
+The build plate should be either ATP-5 or MIC6 Cast Aluminum 6" x 6" x 1/4" which is about 150mm x 150mm x 6mm onto which a magnetic layer is added, topped with a spring steel build plate.
+
+The heater for the bed should be aprox 0.4 watts/cm^2.  So 15cm x 15cm = 255cm^2    255 * 0.4 = 102 watts. Less power will heat slower, more might be ok, but don't go crazy.  See the following for great info https://duet3d.dozuki.com/Wiki/Choosing_a_bed_heater
+
+
+## Stepper Motor Light Reading
+Many Nema 17 will fit into the space. 
+https://duet3d.dozuki.com/Wiki/Choosing_and_connecting_stepper_motors

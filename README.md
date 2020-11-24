@@ -40,3 +40,12 @@ The heater for the bed should be aprox 0.4 watts/cm^2.  So 15cm x 15cm = 255cm^2
 ## Stepper Motor Light Reading
 Many Nema 17 will fit into the space. 
 https://duet3d.dozuki.com/Wiki/Choosing_and_connecting_stepper_motors
+
+## Frame Assembly
+Depending on if you are drilling + tapping for your rails or using the 90 degree internal connectors (or possibly both!)
+
+If you are drilling (and have a printer) you can make a guide:
+See the STL drill template for the holes: 10, 36 and 60
+
+The bottom extrusions have 50mm of space to the bottom of the uprights.
+The back is 26mm on the side beams for a total of 26mm + 20mm total (from the back beam).

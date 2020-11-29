@@ -49,3 +49,22 @@ See the STL drill template for the holes: 10, 36 and 60
 
 The bottom extrusions have 50mm of space to the bottom of the uprights.
 The back is 26mm on the side beams for a total of 26mm + 20mm total (from the back beam).
+
+## Hinged TopHat
+I really like the way the hinged TopHat works and the two positions it can stay in
+Need to determine the # of Misumu 2020 beams to order
+https://github.com/gsl12/Tiny-M/tree/master/STLs/usermods/2020_Hinged_TopHat_Print
+
+### Software
+
+Thinking of using Raspberry Pi 3 (or 4) with Mainsail OS and Klipper on BTT SKR Mini E3 V2
+
+## Mainsail OS
+https://github.com/raymondh2/MainsailOS/releases
+
+How to install
+https://www.youtube.com/watch?v=MK0-MDVJG94
+
+How to configure mainsail
+https://meteyou.github.io/mainsail/setup/
+

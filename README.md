@@ -56,19 +56,19 @@ Need to determine the # of Mitsumu 2020 beams to order. There is a 2020 TopHat f
 (was at https://github.com/gsl12/Tiny-M/tree/master/STLs/usermods/2020_Hinged_TopHat_Print)
 
 The following measurements have not been verified in an actual build.
-Verticals
+Verticals\
 Back 2 x 75 mm
 Front 2 x 92 mm 
 
-Horizontal
+Horizontal\
 Front 2 x 260 mm
 Back 1 x 260 mm, 1 x 274 mm
 
-Sides
+Sides\
 Top Right/Left 2 x 260 mm 
 Bottome Right/Left 2 x 230 mm
 
-Totals 
+Totals\
 2 x 75 mm
 2 x 92 mm
 2 x 230 mm

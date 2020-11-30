@@ -88,3 +88,6 @@ https://www.youtube.com/watch?v=MK0-MDVJG94
 How to configure mainsail
 https://meteyou.github.io/mainsail/setup/
 
+Configuration of SKR Mini E3 V2 for klipper
+https://github.com/KevinOConnor/klipper/blob/master/config/generic-bigtreetech-skr-mini-e3-v2.0.cfg
+

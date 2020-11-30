@@ -55,25 +55,25 @@ I really like the way the hinged TopHat works and the two positions it can stay 
 Need to determine the # of Mitsumu 2020 beams to order. There is a 2020 TopHat for V0 that I've patterned the following on
 (was at https://github.com/gsl12/Tiny-M/tree/master/STLs/usermods/2020_Hinged_TopHat_Print)
 
-**The following measurements have not been verified in an actual build.**
+**The following measurements have not been verified in an actual build.**\
 Verticals\
 Back 2 x 75 mm\
-Front 2 x 92 mm\
+Front 2 x 92 mm
 
 Horizontal\
 Front 2 x 260 mm\
-Back 1 x 260 mm, 1 x 274 mm\
+Back 1 x 260 mm, 1 x 274 mm
 
 Sides\
 Top Right/Left 2 x 260 mm\
-Bottom Right/Left 2 x 230 mm\
+Bottom Right/Left 2 x 230 mm
 
 Totals\
 2 x 75 mm\
 2 x 92 mm\
 2 x 230 mm\
 5 x 260 mm\
-1 x 274 mm\
+1 x 274 mm
 
 ### Software
 

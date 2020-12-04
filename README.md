@@ -91,3 +91,5 @@ https://meteyou.github.io/mainsail/setup/
 Configuration of SKR Mini E3 V2 for klipper
 https://github.com/KevinOConnor/klipper/blob/master/config/generic-bigtreetech-skr-mini-e3-v2.0.cfg
 
+Connecting 
+https://discord.com/channels/460117602945990666/741806179247980695/768032201362767893

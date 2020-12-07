@@ -77,7 +77,23 @@ Totals\
 
 ### Software
 
-Thinking of using Raspberry Pi 3 (or 4) with Mainsail OS and Klipper on BTT SKR Mini E3 V2
+Thinking of using Raspberry Pi 2 (or 3) with Fluidd and Klipper on BTT SKR Mini E3 V2
+By using Fluidd Pi, install should be relatively easy. 
+
+The Raspberry Pi runs Klipper which spits out G-code for the Mini E3 to drive the stepper motors.
+The Raspberry Pi connects to the Mini E3 via the USB cable that comes with the Mini E3.
+
+## Raspberry Pi Setup
+Install a Raspberry Pi lite OS from
+https://www.raspberrypi.org/software/operating-systems/
+
+## Fluidd Pi
+FluiddPi - A Pi image with Klipper, Moonraker, Fluidd and Web Camera support pre-installed. - cadriel/FluiddPI
+https://github.com/cadriel/FluiddPI
+
+## Fluidd
+https://github.com/cadriel/fluidd/blob/develop/docs/README.md
+
 
 ## Mainsail OS
 https://github.com/raymondh2/MainsailOS/releases
@@ -88,8 +104,17 @@ https://www.youtube.com/watch?v=MK0-MDVJG94
 How to configure mainsail
 https://meteyou.github.io/mainsail/setup/
 
-Configuration of SKR Mini E3 V2 for klipper
-https://github.com/KevinOConnor/klipper/blob/master/config/generic-bigtreetech-skr-mini-e3-v2.0.cfg
 
 Connecting 
 https://discord.com/channels/460117602945990666/741806179247980695/768032201362767893
+
+
+## Klipper onto SKR Mini E3 V2
+Note pin difference from earlier SKR mini boards.
+https://github.com/vladbabii/raspberry_os_buster_read_only_fs
+https://discord.com/channels/460117602945990666/696930677161197640/746051951447375983
+https://github.com/VoronDesign/Voron-0/blob/master/VORON-0/Manuals/V0_Setup_Guide.pdf
+
+Configuration of SKR Mini E3 V2 for klipper
+https://github.com/KevinOConnor/klipper/blob/master/config/generic-bigtreetech-skr-mini-e3-v2.0.cfg
+

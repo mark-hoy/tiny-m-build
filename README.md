@@ -139,3 +139,16 @@ Note also that the tensioner screw insert can be up to 6mm long
 
 The video reference.\
 https://youtu.be/3WogD5IUwAM
+
+
+## Rails and Build Plate
+Carefully review the Tiny-M CAD via OnShape https://cad.onshape.com/documents/d2a24a4147c3d522115f6ea5/w/d8f44be5c0a081fbf527e154/e/debb6c2779e27f86389232d5 \
+While I found OnShape slow to load on my aging 2011 iMac, it did pretty darn good once loaded.
+
+I believe (but have not verified) that assembly of the tiny-m should be very similar to the V0 rails and build plate, so watch the following video:\
+https://youtu.be/Il6koDFPf7w
+
+
+## Extruder
+Images of Dragon for Mini Sherpa
+https://github.com/Annex-Engineering/Sherpa_Mini-Extruder/tree/master/Toolheads/Xile_Tiny_M/Dragon%20Toolhead/Images

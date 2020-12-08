@@ -104,10 +104,10 @@ https://www.youtube.com/watch?v=MK0-MDVJG94
 How to configure mainsail
 https://meteyou.github.io/mainsail/setup/
 
-
 Connecting 
 https://discord.com/channels/460117602945990666/741806179247980695/768032201362767893
 
+Web Camera for Mainsail https://lazarofilm.gitbook.io/3d-printing/setting-up-your-pi-camera-for-mainsail
 
 ## Klipper onto SKR Mini E3 V2
 Note pin difference from earlier SKR mini boards.

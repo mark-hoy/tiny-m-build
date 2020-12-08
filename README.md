@@ -118,3 +118,24 @@ https://github.com/VoronDesign/Voron-0/blob/master/VORON-0/Manuals/V0_Setup_Guid
 Configuration of SKR Mini E3 V2 for klipper
 https://github.com/KevinOConnor/klipper/blob/master/config/generic-bigtreetech-skr-mini-e3-v2.0.cfg
 
+
+# Assembly 
+
+## Sherpa Mini 
+From Anin at https://discord.com/channels/641407187004030997/705183604535459871/785714455178248192
+
+Coffee's video shows the correct assembly order for a K series printer where the lower two screws thread into the toolhead. For a standalone sherpa it might be easier to assemble things in this order:\
+1. Install all inserts (including 2 in the rear housing) and bearings, clean up the filament path with a 2mm drill bit\
+2. Sand/grind shaft (use the printed tool if necessary)\
+3. Insert the 50t gear/shaft assy into the bearing\
+4. Stack the core housing on top of the rear housing and install the lower two screws\
+5. Install the driven BMG filament gear, add a 5x7x0.5mm waher on top of the gear. Loctite the grub screw\
+6. Build and install the idler arm assembly\
+7. Install the front housing\
+8. Make sure everything runs freely\
+9. Install the motor and adjust gear meshing until there is only a tiny bit of backlash\
+10. Install the tensioner screw assembly\
+Note also that the tensioner screw insert can be up to 6mm long
+
+The video reference.\
+https://youtu.be/3WogD5IUwAM

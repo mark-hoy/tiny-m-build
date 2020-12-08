@@ -140,6 +140,9 @@ Note also that the tensioner screw insert can be up to 6mm long
 The video reference.\
 https://youtu.be/3WogD5IUwAM
 
+## Rails
+Watch the video and note that if you use the 90 degree internal corners, you'll only need two holes in the build plate. You'll still have a bunch of tapping though so worth watching. \
+https://www.youtube.com/watch?v=2dvbn0rWA60&feature=youtu.be
 
 ## Rails and Build Plate
 Carefully review the Tiny-M CAD via OnShape https://cad.onshape.com/documents/d2a24a4147c3d522115f6ea5/w/d8f44be5c0a081fbf527e154/e/debb6c2779e27f86389232d5 \

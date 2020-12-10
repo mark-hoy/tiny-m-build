@@ -1,8 +1,10 @@
 # tiny-m-build
 
 ## WORK IN PROGRESS
-
 This is my particular spin on the Tiny-M build, a variant of the Voron V0 using Mitsumi 2020 Extrusions and Nema 17 motors.  The Voron machines are home build high performance printers. With the V0 being the smallest of the series. The numbering scheme, V0, V1, V2 represent different machines, so don't get confused that's it's a revision.
+
+see the cad image at 
+https://github.com/gsl12/Tiny-M
 
 Since I've not started the build yet, the first things I'll link are the Voron V0 build and the Tiny-M repo.
 I'd like to use a small direct hot end instead of the standard Voron V0 Boden so that it will easily print flexable material.

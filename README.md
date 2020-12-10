@@ -145,7 +145,8 @@ Watch the video and note that if you use the 90 degree internal corners, you'll 
 https://www.youtube.com/watch?v=2dvbn0rWA60&feature=youtu.be
 
 ## Rails and Build Plate
-Carefully review the Tiny-M CAD via OnShape https://cad.onshape.com/documents/d2a24a4147c3d522115f6ea5/w/d8f44be5c0a081fbf527e154/e/debb6c2779e27f86389232d5 \
+Carefully review the Tiny-M CAD via OnShape 
+https://github.com/gsl12/Tiny-M \
 While I found OnShape slow to load on my aging 2011 iMac, it did pretty darn good once loaded.
 
 I believe (but have not verified) that assembly of the tiny-m should be very similar to the V0 rails and build plate, so watch the following video:\

@@ -29,6 +29,16 @@ T8x4 ptfe coated Lead Screw + POM - 215mm	 *Note: may have to cut to length as t
 
 all images so far from Xile on Voron group on discord
 
+## Power
+Really like the idea of 24v of external power with a distribution via this nifty board. Mind you that means I need to get a board manufactured too....
+https://github.com/JNP-1/VoronUsers/tree/master/printer_mods/JNP/PCBs/Supply_PCB
+
+BOM https://github.com/JNP-1/VoronUsers/blob/master/printer_mods/JNP/PCBs/Supply_PCB/BOM/BOM_Supply_PCB_V1.0.txt
+
+Along with an external power brick with a microfit connection\
+https://www.digikey.com/en/products/detail/VES220PS24/1470-VES220PS24-ND/10440644?itemSeq=347136397
+
+Use the following when determining how much power a guage of wire can handle https://www.engineeringtoolbox.com/wire-gauges-d_419.html
 
 ## My preliminary BOM
 https://docs.google.com/spreadsheets/d/1UV62ADl2gtK5vL0fV1nwevR6O9Ppzs0MBe7jnsI-jo4/edit?usp=sharing

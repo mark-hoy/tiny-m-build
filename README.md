@@ -1,4 +1,25 @@
 # tiny-m-build
+- [tiny-m-build](#tiny-m-build)
+  * [WORK IN PROGRESS](#work-in-progress)
+  * [Power](#power)
+  * [My preliminary BOM](#my-preliminary-bom)
+  * [Build Platform + Plate Information](#build-platform---plate-information)
+  * [Stepper Motor Light Reading](#stepper-motor-light-reading)
+  * [Frame Assembly](#frame-assembly)
+  * [Hinged TopHat](#hinged-tophat)
+- [Software](#software)
+  * [Raspberry Pi Setup](#raspberry-pi-setup)
+  * [Fluidd Pi](#fluidd-pi)
+  * [Fluidd](#fluidd)
+  * [Mainsail OS](#mainsail-os)
+  * [Klipper onto SKR Mini E3 V2](#klipper-onto-skr-mini-e3-v2)
+- [Assembly](#assembly)
+  * [Sherpa Mini](#sherpa-mini)
+  * [Rails](#rails)
+  * [Rails and Build Plate](#rails-and-build-plate)
+  * [Extruder](#extruder)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## WORK IN PROGRESS
 This is my particular spin on the Tiny-M build, a variant of the Voron V0 using Mitsumi 2020 Extrusions and Nema 17 motors.  The Voron machines are home build high performance printers. With the V0 being the smallest of the series. The numbering scheme, V0, V1, V2 represent different machines, so don't get confused that's it's a revision.
@@ -87,7 +108,7 @@ Totals\
 5 x 260 mm\
 1 x 274 mm
 
-### Software
+# Software
 
 Thinking of using Raspberry Pi 2 (or 3) with Fluidd and Klipper on BTT SKR Mini E3 V2
 By using Fluidd Pi, install should be relatively easy. 

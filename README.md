@@ -96,8 +96,10 @@ The Raspberry Pi runs Klipper which spits out G-code for the Mini E3 to drive th
 The Raspberry Pi connects to the Mini E3 via the USB cable that comes with the Mini E3.
 
 ## Raspberry Pi Setup
-Install a Raspberry Pi lite OS from
-https://www.raspberrypi.org/software/operating-systems/
+Install a Raspberry Pi lite OS from \
+
+https://www.raspberrypi.org/software/operating-systems/ \
+https://github.com/vladbabii/raspberry_os_buster_read_only_fs
 
 ## Fluidd Pi
 FluiddPi - A Pi image with Klipper, Moonraker, Fluidd and Web Camera support pre-installed. - cadriel/FluiddPI
@@ -110,24 +112,25 @@ https://github.com/cadriel/fluidd/blob/develop/docs/README.md
 ## Mainsail OS
 https://github.com/raymondh2/MainsailOS/releases
 
-How to install
+How to install \
 https://www.youtube.com/watch?v=MK0-MDVJG94
 
-How to configure mainsail
+How to configure mainsail \
 https://meteyou.github.io/mainsail/setup/
 
-Connecting 
+Connecting \
 https://discord.com/channels/460117602945990666/741806179247980695/768032201362767893
 
 Web Camera for Mainsail https://lazarofilm.gitbook.io/3d-printing/setting-up-your-pi-camera-for-mainsail
 
 ## Klipper onto SKR Mini E3 V2
-Note pin difference from earlier SKR mini boards.
-https://github.com/vladbabii/raspberry_os_buster_read_only_fs
-https://discord.com/channels/460117602945990666/696930677161197640/746051951447375983
+Note pin difference from earlier SKR mini boards. \
+
+https://github.com/VoronDesign/Voron-0/pull/51 for V2 vs V1.x difference \
+https://discord.com/channels/460117602945990666/696930677161197640/746051951447375983 \
 https://github.com/VoronDesign/Voron-0/blob/master/VORON-0/Manuals/V0_Setup_Guide.pdf
 
-Configuration of SKR Mini E3 V2 for klipper
+Configuration of SKR Mini E3 V2 for klipper \
 https://github.com/KevinOConnor/klipper/blob/master/config/generic-bigtreetech-skr-mini-e3-v2.0.cfg
 
 

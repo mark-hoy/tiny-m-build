@@ -27,7 +27,11 @@ This is my particular spin on the Tiny-M build, a variant of the Voron V0 using 
 see the cad image at 
 https://github.com/gsl12/Tiny-M
 
-Since I've not started the build yet, the first things I'll link are the Voron V0 build and the Tiny-M repo.
+I've started the build!
+
+Pictures at https://photos.app.goo.gl/qUpFSqQ5FszeDbXW6
+
+The first things I'll link are the Voron V0 build and the Tiny-M repo.
 I'd like to use a small direct hot end instead of the standard Voron V0 Boden so that it will easily print flexable material.
 In addition, I really like the two position hinged TopHat by hartk1213
 
@@ -42,13 +46,13 @@ Sherpa Mini-Extruder https://github.com/Annex-Engineering/Sherpa_Mini-Extruder
 
 Hinged Top Hat - https://github.com/hartk1213/VoronUsers/tree/master/printer_mods%2Fhartk1213%2FVoron0_Hinged_Top_Hat
 
-motion controller - BIGTREETECH SKR Mini E3 V2.0 New Upgrade Control Board 32Bit with TMC2209 
+Motion controller - BIGTREETECH SKR Mini E3 V2.0 New Upgrade Control Board 32Bit with TMC2209 
 
-job control - Raspberry Pi 3 or 4?
+Job control - Raspberry Pi Zero W, Pi 3 or 4?
 
-T8x4 ptfe coated Lead Screw + POM - 215mm	 *Note: may have to cut to length as this isn't standard.
+T8x4 ptfe coated Lead Screw + POM - 215mm	 *Note: will have to cut to length as this isn't standard.
 
-all images so far from Xile on Voron group on discord
+Many images so far from Xile on Voron group on discord
 
 ## Power
 Really like the idea of 24v of external power with a distribution via this nifty board. Mind you that means I need to get a board manufactured too....

@@ -14,10 +14,10 @@
   * [Mainsail OS](#mainsail-os)
   * [Klipper onto SKR Mini E3 V2](#klipper-onto-skr-mini-e3-v2)
 - [Assembly](#assembly)
-  * [Sherpa Mini](#sherpa-mini)
   * [Rails](#rails)
   * [Rails and Build Plate](#rails-and-build-plate)
-  * [Extruder](#extruder)
+- [Extruder](#extruder)
+  * [Sherpa Mini](#sherpa-mini)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -161,6 +161,22 @@ https://github.com/KevinOConnor/klipper/blob/master/config/generic-bigtreetech-s
 
 # Assembly 
 
+
+## Rails
+Watch the video and note that if you use the 90 degree internal corners, you'll only need two holes in the build plate. You'll still have a bunch of tapping though so worth watching. \
+https://www.youtube.com/watch?v=2dvbn0rWA60&feature=youtu.be
+
+## Rails and Build Plate
+Carefully review the Tiny-M CAD via OnShape 
+https://github.com/gsl12/Tiny-M \
+While I found OnShape slow to load on my aging 2011 iMac, it did pretty darn good once loaded.
+
+I believe (but have not verified) that assembly of the tiny-m should be very similar to the V0 rails and build plate, so watch the following video:\
+https://youtu.be/Il6koDFPf7w
+
+
+# Extruder
+
 ## Sherpa Mini 
 From Anin at https://discord.com/channels/641407187004030997/705183604535459871/785714455178248192
 
@@ -179,20 +195,7 @@ Note also that the tensioner screw insert can be up to 6mm long
 
 The video reference.\
 https://youtu.be/3WogD5IUwAM
+https://www.youtube.com/watch?v=3WogD5IUwAM&t=6s
 
-## Rails
-Watch the video and note that if you use the 90 degree internal corners, you'll only need two holes in the build plate. You'll still have a bunch of tapping though so worth watching. \
-https://www.youtube.com/watch?v=2dvbn0rWA60&feature=youtu.be
-
-## Rails and Build Plate
-Carefully review the Tiny-M CAD via OnShape 
-https://github.com/gsl12/Tiny-M \
-While I found OnShape slow to load on my aging 2011 iMac, it did pretty darn good once loaded.
-
-I believe (but have not verified) that assembly of the tiny-m should be very similar to the V0 rails and build plate, so watch the following video:\
-https://youtu.be/Il6koDFPf7w
-
-
-## Extruder
-Images of Dragon for Mini Sherpa
+Images of Dragon for Sherpa Mini \
 https://github.com/Annex-Engineering/Sherpa_Mini-Extruder/tree/master/Toolheads/Xile_Tiny_M/Dragon%20Toolhead/Images

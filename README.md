@@ -7,6 +7,7 @@
   * [Stepper Motor Light Reading](#stepper-motor-light-reading)
   * [Frame Assembly](#frame-assembly)
   * [Hinged TopHat](#hinged-tophat)
+- [Electronics](#Electronics)
 - [Software](#software)
   * [Raspberry Pi Setup](#raspberry-pi-setup)
   * [Fluidd Pi](#fluidd-pi)
@@ -117,6 +118,22 @@ Totals\
 2 x 230 mm\
 5 x 260 mm\
 1 x 274 mm
+
+# Electronics
+
+The BTT SRK mini E3 V2 (not the older models) is my choice for this build. In pariticular, it has a beefier Mosfet for driving the heater bed. It has many other fine updates too: 2 fan outputs. a proper ground return for drivers, and better thermistor circuitry (thanks Ocho).
+
+Raspberry Pi 3/4, or Zero W.  Any of these will work with Klipper software as it's got a fairly light overhead.
+
+Display - FYSETC V2.1 Mini 12864 is what I have on hand. The wiring to the SRK mini E3 V2 is a bit weird. There is a board that plugs into the USB on the Pi that then easily connects to the two 10 pin connectors. Alternatives are possible here.
+
+For the steppers, I chose all LDO motors which have a great reputation. The X/Y/Z are all 0.9 degree LDO 17HS19-2004S (which also deviates from the original Tiny-M BOM with 1.8 degree steppers).
+
+Endstops - I am using some D2FC-F-7N that I had on hand from fixing a Logitech trackball mouse. (I have to ream out the mounting hole to fit M2). 
+
+I would like to try sensorless homing since the TMC2209 support this mode but have not gotten to this yet.
+
+Additional, stealth chop makes the motors REALLY quiet, this would be pretty cool to also try.
 
 # Software
 

@@ -24,6 +24,8 @@
 ## WORK IN PROGRESS
 This is my particular spin on the Tiny-M build, a variant of the Voron V0 using Mitsumi 2020 Extrusions and Nema 17 motors.  The Voron machines are home build high performance printers. With the V0 being the smallest of the series. The numbering scheme, V0, V1, V2 represent different machines, so don't get confused that's it's a revision.
 
+My version of this is slightly different than the online CAD image. I want to used a BTT SKR mini E3 V2, a 24v heated bed (instead of 120v ac) and a direct drive sherpa mini instead of the regular boden drive.
+
 see the cad image at 
 https://github.com/gsl12/Tiny-M
 
@@ -55,6 +57,10 @@ T8x4 ptfe coated Lead Screw + POM - 215mm	 *Note: will have to cut to length as 
 Many images so far from Xile on Voron group on discord
 
 ## Power
+Want to use an external 24v supply and then all 24v on the Tiny-M. This means a 24v heated bed which is normally 120v ac. It removed all 120ac from the underside of the build making it a bit safer. Sourcing the bed heater is harder though as is the connection of the power to the chassis.
+
+WORK IN PROGRESS: Have not sourced the DC power yet as there are a couple of ways to go. Don't really want to manufacture a board just for me unless I really have to......
+
 Really like the idea of 24v of external power with a distribution via this nifty board. Mind you that means I need to get a board manufactured too....
 https://github.com/JNP-1/VoronUsers/tree/master/printer_mods/JNP/PCBs/Supply_PCB
 

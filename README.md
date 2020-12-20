@@ -144,26 +144,31 @@ The Raspberry Pi runs Klipper which spits out G-code for the Mini E3 to drive th
 The Raspberry Pi connects to the Mini E3 via the USB cable that comes with the Mini E3.
 
 ## Raspberry Pi Setup
-Install a Raspberry Pi lite OS from:\
+
+While I'm using a Pi 4, I'll be trying out FluiddPi, so this is just to get the rest of you going should you want to do it all yourself and download an Image. I strongly suggest you go the FluiddPi route....
+
+Download the latest Raspberry Pi OS Lite image, mine was a 5.4 from Dec 2, 2020 and use Etcher or something similar to burn an SD card with the image. I happened to use a 32G card on a Raspberry Pi 4, but smaller cards and slower Pi will also work.
+
 https://www.raspberrypi.org/software/operating-systems/ \
 https://github.com/vladbabii/raspberry_os_buster_read_only_fs
 
-1. Download the latest Raspberry Pi OS Lite image, mine was a 5.4 from Dec 2, 2020 and use Etcher or something similar to burn an SD card with the image. I happened to use a 32G card on a Raspberry Pi 4, but smaller cards and slower Pi will also work.\
-
-2. Connect the Pi to your monitor (funky adapter cable needed for HDMI on Pi 4) and keyboard, login: pi  password: raspberry\
-
-3. Run "sudo raspi-config" and walk through each menu item. \
-3a. I choose wireless options and connected to my home wireless, but you could also go wired via Ethernet.\
-3b. Give your Pi a hostname and probably set it to your timezone for ease of looking at your log files.\
-3c. Enable SSH so that you can remotely get into your Pi\
-3d. Update Pi with various patches\
-3e. Reboot and prove all the stuff you just did works\
-
-4. Upon reboot, run "ifconfig" and determine your IP address. Note: You might want to get the MAC address and set a static IP address in your DCHPD configuration of your Wireless Router. Use SSH (on OSX/Linux) or PuTTY on Windows and remotely login to your Pi. The command will be similar to "ssh pi@192.168.1.142" but with your IP address.
 
 ## Fluidd Pi
 FluiddPi - A Pi image with Klipper, Moonraker, Fluidd and Web Camera support pre-installed. - cadriel/FluiddPI
 https://github.com/cadriel/FluiddPI
+
+1. Download the latest FluiddPi Image, I used v1.2.0 at https://github.com/cadriel/FluiddPI/releases/download/v1.2.0/fluiddpi-rpi-lite-v1.2.0.zip
+2. Flash your SD card with the image (fluiddpi-rpi-lite-v1.2.0.zip in my case), I used BalenaEtcher for OSX.
+3. Connect the Pi to your monitor (funky adapter cable needed for HDMI on Pi 4) and keyboard, login: pi  password: raspberry
+4. Run "sudo raspi-config" and walk through each menu item. \
+4a. I choose wireless options and connected to my home wireless, but you could also go wired via Ethernet.\
+4b. Give your Pi a hostname and probably set it to your timezone for ease of looking at your log files.\
+4c. Enable SSH so that you can remotely get into your Pi\
+4d. Update Pi with various patches\
+4e. Reboot and prove all the stuff you just did works
+
+4. Upon reboot, run "ifconfig" and determine your IP address. Note: You might want to get the MAC address and set a static IP address in your DCHPD configuration of your Wireless Router. Use SSH (on OSX/Linux) or PuTTY on Windows and remotely login to your Pi. The command will be similar to "ssh pi@192.168.1.142" but with your IP address.
+
 
 ## Fluidd
 https://github.com/cadriel/fluidd/blob/develop/docs/README.md

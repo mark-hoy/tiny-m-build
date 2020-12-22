@@ -161,8 +161,8 @@ https://github.com/vladbabii/raspberry_os_buster_read_only_fs
 FluiddPi - A Pi image with Klipper, Moonraker, Fluidd and Web Camera support pre-installed. - cadriel/FluiddPI
 https://github.com/cadriel/FluiddPI
 
-1. Download the latest FluiddPi Image, I used v1.2.0 at https://github.com/cadriel/FluiddPI/releases/download/v1.2.0/fluiddpi-rpi-lite-v1.2.0.zip
-2. Flash your SD card with the image (fluiddpi-rpi-lite-v1.2.0.zip in my case), I used BalenaEtcher for OSX.
+1. Download the latest FluiddPi Image, I used v1.2.2 at https://github.com/cadriel/FluiddPI/releases/download/v1.2.2/fluiddpi-rpi-lite-v1.2.2.zip
+2. Flash your SD card with the image (fluiddpi-rpi-lite-v1.2.2.zip in my case), I used BalenaEtcher for OSX.
 3. Connect the Pi to your monitor (funky adapter cable needed for HDMI on Pi 4) and keyboard, login: pi  password: raspberry
 4. Run "sudo raspi-config" and walk through each menu item. \
 4a. I choose wireless options and connected to my home wireless, but you could also go wired via Ethernet.\

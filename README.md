@@ -169,10 +169,13 @@ https://github.com/cadriel/FluiddPI
 4b. Give your Pi a hostname and probably set it to your timezone for ease of looking at your log files.\
 4c. Enable SSH so that you can remotely get into your Pi\
 4d. Update Pi with various patches\
+4e. exit 'raspi-config' \
+4f. update/upgrade the Linux system "sudo apt update" and "sudo apt upgrade"
 4e. Reboot and prove all the stuff you just did works
 
-4. Upon reboot, run "ifconfig" and determine your IP address. Note: You might want to get the MAC address and set a static IP address in your DCHPD configuration of your Wireless Router. Use SSH (on OSX/Linux) or PuTTY on Windows and remotely login to your Pi. The command will be similar to "ssh pi@192.168.1.142" but with your IP address.
+Run "ifconfig" and determine your IP address. Note: You might want to get the MAC address and set a static IP address in your DCHPD configuration of your Wireless Router. Use SSH (on OSX/Linux) or PuTTY on Windows and remotely login to your Pi. The command will be similar to "ssh pi@192.168.1.164" but with your IP address.
 
+In addition, if you browse on your network to http://192.168.1.164/fluidd#/configuration you can start configuration of your system
 
 ## Fluidd
 https://github.com/cadriel/fluidd/blob/develop/docs/README.md

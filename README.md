@@ -60,9 +60,13 @@ Many images so far from Xile on Voron group on discord
 ## Power
 Want to use an external 24v supply and then all 24v on the Tiny-M. This means a 24v heated bed which is normally 120v ac. It removed all 120ac from the underside of the build making it a bit safer. Sourcing the bed heater is harder though as is the connection of the power to the chassis.
 
-WORK IN PROGRESS: Have not sourced the DC power yet as there are a couple of ways to go. Don't really want to manufacture a board just for me unless I really have to......
+WORK IN PROGRESS: Finally ordered the DC power but Xmas will delay shipment. Don't really want to manufacture a board just for me unless I really have to......
 
-Really like the idea of 24v of external power with a distribution via this nifty board. Mind you that means I need to get a board manufactured too....
+External Mean Well 220 watt 24v DC power supply https://www.digikey.com/en/products/detail/GST220A24-R7B/1866-2085-ND/7703643?itemSeq=348860603 \
+Power inlet to match - https://www.digikey.com/en/products/detail/KPJX-PM-4S/2092-KPJX-PM-4S-ND/9990081?itemSeq=348766398 \
+Power switch - https://www.digikey.com/en/products/detail/RB141C1000-135/EG5684-ND/8540808?itemSeq=348859736
+
+While I really like the idea of 24v of external power with a distribution via this nifty board, I didn't want to have to manufacture a 4 layer board just for my power input, so I decided to go with the simpler solution above....
 https://github.com/JNP-1/VoronUsers/tree/master/printer_mods/JNP/PCBs/Supply_PCB
 
 BOM https://github.com/JNP-1/VoronUsers/blob/master/printer_mods/JNP/PCBs/Supply_PCB/BOM/BOM_Supply_PCB_V1.0.txt

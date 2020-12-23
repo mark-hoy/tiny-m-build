@@ -216,19 +216,23 @@ https://github.com/KevinOConnor/klipper/blob/master/config/generic-bigtreetech-s
 
 Copy the appropriate file from the configuration directory in this github to /home/pi/klipper_config/printer.cfg (or similar if you have it in a different place.
 
-Example: OSX & Linux\
+Example: OSX & Linux
+```console
 $ scp configuration/printer.skr.mini.e3.v2.cfg pi@192.168.1.164:/home/pi/klipper_config/printer.cfg
+```
 
 Use the following as a reference for configuration of Klipper for BTT SKR mini E3 V2 \
 ![cfg image](images/menuconfig.png)
 
-Then, on the Pi move to the klipper directory \
-$ cd klipper \
-$ make menuconfig \
-. \
-. \
-. \
+Then, on the Pi move to the klipper directory
+```console
+$ cd klipper
+$ make menuconfig
+. 
+. 
+. 
 ~/klipper $ cp out/klipper.bin ~/firmware.bin
+```
 
 ### Flashing MCU
 
@@ -241,31 +245,39 @@ $ make menuconfig \
 
 First power on the Pi and then the SKR Mini E3 V2 then log into the Pi and run a couple of commands
 
+Issue the following command, then plug in the USB cable and you should see something like:
+
+```console
 $ dmesg -w -t
-
-Now plug in the USB cable and you should see something like:
-
-cdc_acm 1-1.1:1.0: ttyACM0: USB ACM device \
-usb 1-1.1: USB disconnect, device number 5 \
-usb 1-1.1: new full-speed USB device number 6 using xhci_hcd \
-usb 1-1.1: New USB device found, idVendor=1d50, idProduct=614e, bcdDevice= 1.00 \
-usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3 \
-usb 1-1.1: Product: stm32f103xe \
-usb 1-1.1: Manufacturer: Klipper \
-usb 1-1.1: SerialNumber: 35FFDB054246313020791057 \
+...
+cdc_acm 1-1.1:1.0: ttyACM0: USB ACM device 
+usb 1-1.1: USB disconnect, device number 5 
+usb 1-1.1: new full-speed USB device number 6 using xhci_hcd 
+usb 1-1.1: New USB device found, idVendor=1d50, idProduct=614e, bcdDevice= 1.00 
+usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3 
+usb 1-1.1: Product: stm32f103xe 
+usb 1-1.1: Manufacturer: Klipper 
+usb 1-1.1: SerialNumber: 35FFDB054246313020791057 
 cdc_acm 1-1.1:1.0: ttyACM0: USB ACM device
+```
 
-Klipper should now have a mapping that contains the serial number, copy this info into the 'serial' line in the configuration file
+Klipper should now be able to use a mapping that contains the serial number, copy this info into the 'serial' line in the configuration file
 
+```console
 $ ls /dev/serial/by-id/
 usb-Klipper_stm32f103xe_35FFDB054246313020791057-if00
+```
 
-Edit the klipper_config file\
+Edit the klipper_config file
+```console
 $ vi klipper_config/printer.cfg 
+```
 
-So now the cfg should contain your printer \
+So now the cfg should contain your printer
+```console
 $ grep serial klipper_config/printer.cfg 
 serial: /dev/serial/by-id/usb-Klipper_stm32f103xe_35FFDB054246313020791057-if00
+```
 
 If you don't see the /dev/by/serial section, double check your USB cable and ensure each board is correctly powered on.
 

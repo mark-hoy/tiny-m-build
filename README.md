@@ -181,6 +181,7 @@ In addition, if you browse on your network to http://192.168.1.164/fluidd#/confi
 https://github.com/cadriel/fluidd/blob/develop/docs/README.md
 
 
+
 ## Mainsail OS
 https://github.com/raymondh2/MainsailOS/releases
 
@@ -196,14 +197,33 @@ https://discord.com/channels/460117602945990666/741806179247980695/7680322013627
 Web Camera for Mainsail https://lazarofilm.gitbook.io/3d-printing/setting-up-your-pi-camera-for-mainsail
 
 ## Klipper onto SKR Mini E3 V2
+
+Klipper code needs to run on the Pi and communicate with the MCU. Our MCU is the BTT SKR Mini E3 V2 and the following is how to set it up.
+
 Note pin difference from earlier SKR mini boards. \
 
 https://github.com/VoronDesign/Voron-0/pull/51 for V2 vs V1.x difference \
 https://discord.com/channels/460117602945990666/696930677161197640/746051951447375983 \
 https://github.com/VoronDesign/Voron-0/blob/master/VORON-0/Manuals/V0_Setup_Guide.pdf
 
-Configuration of SKR Mini E3 V2 for klipper \
+Another example configuration of SKR Mini E3 V2 for klipper \
 https://github.com/KevinOConnor/klipper/blob/master/config/generic-bigtreetech-skr-mini-e3-v2.0.cfg
+
+Copy the appropriate file from the configuration directory in this github to /home/pi/klipper_config/printer.cfg (or similar if you have it in a different place.
+
+Example: OSX & Linux\
+$ scp configuration/printer.skr.mini.e3.v2.cfg pi@192.168.1.164:/home/pi/klipper_config/printer.cfg
+
+See 
+![cfg image](../../images/menuconfig.png)
+
+Then, on the Pi move to the klipper directory \
+$ cd klipper \
+$ make menuconfig \
+. \
+. \
+. \
+~/klipper $ cp out/klipper.bin ~/firmware.bin
 
 
 # Assembly 

@@ -214,7 +214,7 @@ Copy the appropriate file from the configuration directory in this github to /ho
 Example: OSX & Linux\
 $ scp configuration/printer.skr.mini.e3.v2.cfg pi@192.168.1.164:/home/pi/klipper_config/printer.cfg
 
-See 
+Use the following as a reference for configuration of Klipper for BTT SKR mini E3 V2 \
 ![cfg image](images/menuconfig.png)
 
 Then, on the Pi move to the klipper directory \
@@ -224,6 +224,13 @@ $ make menuconfig \
 . \
 . \
 ~/klipper $ cp out/klipper.bin ~/firmware.bin
+
+##Flashing MCU
+
+1. Now remove the SD card from the SKR mini and copy this file onto it.
+2. Place card into MCU and apply 24v power, wait 1 minute and turn power off
+3. Remove card, and look at the contents and the "firmware.bin" file should have been renamed to "FIRMWARE.CUR" 
+4. The MCU is now up to date and ready to work with Klipper
 
 
 # Assembly 

@@ -232,6 +232,35 @@ $ make menuconfig \
 3. Remove card, and look at the contents and the "firmware.bin" file should have been renamed to "FIRMWARE.CUR" 
 4. The MCU is now up to date and ready to work with Klipper
 
+## Klipper Configuration
+
+First power on the Pi and then the SKR Mini E3 V2 then log into the Pi and run a couple of commands
+
+$ dmesg -w -t
+
+Now plug in the USB cable and you should see something like:
+
+cdc_acm 1-1.1:1.0: ttyACM0: USB ACM device \
+usb 1-1.1: USB disconnect, device number 5 \
+usb 1-1.1: new full-speed USB device number 6 using xhci_hcd \
+usb 1-1.1: New USB device found, idVendor=1d50, idProduct=614e, bcdDevice= 1.00 \
+usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3 \
+usb 1-1.1: Product: stm32f103xe \
+usb 1-1.1: Manufacturer: Klipper \
+usb 1-1.1: SerialNumber: 35FFDB054246313020791057 \
+cdc_acm 1-1.1:1.0: ttyACM0: USB ACM device
+
+Klipper should now have a mapping that contains the serial number, copy this info into the 'serial' line in the configuration file
+
+$ ls /dev/serial/by-id/
+usb-Klipper_stm32f103xe_35FFDB054246313020791057-if00
+
+Edit the klipper_config file\
+$ vi klipper_config/printer.cfg 
+
+So now the cfg should contain your printer \
+$ grep serial klipper_config/printer.cfg 
+serial: /dev/serial/by-id/usb-Klipper_stm32f103xe_35FFDB054246313020791057-if00
 
 # Assembly 
 

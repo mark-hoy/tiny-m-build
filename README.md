@@ -267,8 +267,21 @@ So now the cfg should contain your printer \
 $ grep serial klipper_config/printer.cfg 
 serial: /dev/serial/by-id/usb-Klipper_stm32f103xe_35FFDB054246313020791057-if00
 
-# Assembly 
+If you don't see the /dev/by/serial section, double check your USB cable and ensure each board is correctly powered on.
 
+For Klipper to run without throwing errors, it expects to see valid information from it's configured thermistors. So wire up the hotend thermistor to PA0.
+
+If you don't have a heated bed (or it's not installed yet), then comment out the "[heater_bed]" section as well as the last 5 lines of the printer.cfg file
+
+Remove the last 5 lines in printer.cfg file\
+#*# [heater_bed]\
+#*# control = pid\
+#*# pid_kp = 37.593\
+#*# pid_ki = 1.139\
+#*# pid_kd = 310.142\
+
+
+# Assembly 
 
 ## Rails
 Watch the video and note that if you use the 90 degree internal corners, you'll only need two holes in the build plate. You'll still have a bunch of tapping though so worth watching. \

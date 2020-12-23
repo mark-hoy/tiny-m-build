@@ -215,7 +215,7 @@ Example: OSX & Linux\
 $ scp configuration/printer.skr.mini.e3.v2.cfg pi@192.168.1.164:/home/pi/klipper_config/printer.cfg
 
 See 
-![cfg image](../main/tree/images/menuconfig.png)
+![cfg image](images/menuconfig.png)
 
 Then, on the Pi move to the klipper directory \
 $ cd klipper \

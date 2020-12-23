@@ -16,7 +16,8 @@
   * [Klipper onto SKR Mini E3 V2](#klipper-onto-skr-mini-e3-v2)
     * [Flashing MCU](#Flashing MCU)
     * [Klipper Configuration](#Klipper Configuration)
-
+  * [Wiring](#wiring)
+  
 ### Klipper Configuration
   
 - [Assembly](#assembly)
@@ -292,6 +293,13 @@ Remove the last 5 lines in printer.cfg file\
 #*# pid_ki = 1.139\
 #*# pid_kd = 310.142\
 
+## Wiring Guide
+Follow the V0 guide for steppers, limit switches, hot end, bed heater, bed thermal cutoff switch, etc.
+
+The Wago wire connectors can make your life a bit easier too.
+
+Basic stepper setup
+![cfg image](images/V0-steppers.png)
 
 # Assembly 
 

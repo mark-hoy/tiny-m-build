@@ -14,6 +14,11 @@
   * [Fluidd](#fluidd)
   * [Mainsail OS](#mainsail-os)
   * [Klipper onto SKR Mini E3 V2](#klipper-onto-skr-mini-e3-v2)
+    * [Flashing MCU](#Flashing MCU)
+    * [Klipper Configuration](#Klipper Configuration)
+
+### Klipper Configuration
+  
 - [Assembly](#assembly)
   * [Rails](#rails)
   * [Rails and Build Plate](#rails-and-build-plate)
@@ -225,14 +230,14 @@ $ make menuconfig \
 . \
 ~/klipper $ cp out/klipper.bin ~/firmware.bin
 
-##Flashing MCU
+### Flashing MCU
 
 1. Now remove the SD card from the SKR mini and copy this file onto it.
 2. Place card into MCU and apply 24v power, wait 1 minute and turn power off
 3. Remove card, and look at the contents and the "firmware.bin" file should have been renamed to "FIRMWARE.CUR" 
 4. The MCU is now up to date and ready to work with Klipper
 
-## Klipper Configuration
+### Klipper Configuration
 
 First power on the Pi and then the SKR Mini E3 V2 then log into the Pi and run a couple of commands
 

@@ -296,6 +296,9 @@ Remove the last 5 lines in printer.cfg file\
 ## Wiring Guide
 Follow the V0 guide for steppers, limit switches, hot end, bed heater, bed thermal cutoff switch, etc.
 
+The best set of info for this is the V0 assembly manual which is oddly not on the Voron main site, but only in the GitHub location
+https://github.com/VoronDesign/Voron-0/blob/master/VORON-0/Manuals/V0_Setup_Guide.pdf
+
 The Wago wire connectors can make your life a bit easier too.
 
 Basic stepper setup

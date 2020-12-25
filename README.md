@@ -304,6 +304,12 @@ The Wago wire connectors can make your life a bit easier too.
 Basic stepper setup
 ![cfg image](images/V0-steppers.png)
 
+Back Left Motor B Connects to X\
+Back Right Motor A Connects to Y
+
+Direction of X is inverted as well as Y in the configuration file (at least for my wiring).
+
+
 # Assembly 
 
 ## Rails

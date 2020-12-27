@@ -350,5 +350,7 @@ https://www.youtube.com/watch?v=3WogD5IUwAM&t=6s
 Images of Dragon for Sherpa Mini \
 https://github.com/Annex-Engineering/Sherpa_Mini-Extruder/tree/master/Toolheads/Xile_Tiny_M/Dragon%20Toolhead/Images
 
+Wiring: With the LDO pancake motor I did the wiring as follows: Blue-Yellow-Green-Red
+
 **NOTE: There is a small 37mm (or so) boden tube between the Sherpa Mini and the Extruder. On the end that goes into the Sherpa Mini, enlarge the end with a drill bit so that filament feeds do not get stuck. **
 

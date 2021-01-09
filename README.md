@@ -53,7 +53,7 @@ Tiny-M https://github.com/gsl12/Tiny-M
 
 Sherpa Mini-Extruder https://github.com/Annex-Engineering/Sherpa_Mini-Extruder
 
-Hinged Top Hat - https://github.com/hartk1213/VoronUsers/tree/master/printer_mods%2Fhartk1213%2FVoron0_Hinged_Top_Hat
+Hinged Top Hat - https://github.com/gsl12/Tiny-M/tree/master/STLs/usermods/2020_Hinged_TopHat_Print
 
 Motion controller - BIGTREETECH SKR Mini E3 V2.0 New Upgrade Control Board 32Bit with TMC2209 
 

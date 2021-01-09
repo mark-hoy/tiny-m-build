@@ -324,6 +324,8 @@ While I found OnShape slow to load on my aging 2011 iMac, it did pretty darn goo
 I believe (but have not verified) that assembly of the tiny-m should be very similar to the V0 rails and build plate, so watch the following video:\
 https://youtu.be/Il6koDFPf7w
 
+Build Plate - Wago 221 connectors make for very nice connections on the printer. They are not rated for the temperature at the bed, but unless you are running a very hot enclosed build, they should be OK a distance away. I used a couple of these holders mounted to the rails under the build plate. https://www.thingiverse.com/thing:4579456 The Wago 221 snap into place very firmly.
+
 
 # Extruder
 

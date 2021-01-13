@@ -36,9 +36,10 @@ My version of this is slightly different than the online CAD image. I want to us
 see the cad image at 
 https://github.com/gsl12/Tiny-M
 
-I've started the build!
+I've finished most of the build.  Working on the door and will start the folding top hat soon.
+![tiny-m image](images/tiny-m.jpg)
 
-Pictures at https://photos.app.goo.gl/qUpFSqQ5FszeDbXW6
+Many more build pictures at https://photos.app.goo.gl/qUpFSqQ5FszeDbXW6
 
 The first things I'll link are the Voron V0 build and the Tiny-M repo.
 I'd like to use a small direct hot end instead of the standard Voron V0 Boden so that it will easily print flexable material.

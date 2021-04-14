@@ -6,6 +6,7 @@
   * [Build Platform + Plate Information](#build-platform---plate-information)
   * [Stepper Motor Light Reading](#stepper-motor-light-reading)
   * [Frame Assembly](#frame-assembly)
+  * [Top](#top)
   * [Hinged TopHat](#hinged-tophat)
 - [Electronics](#Electronics)
 - [Software](#software)
@@ -106,9 +107,11 @@ See the STL drill template for the holes: 10, 36 and 60
 The bottom extrusions have 50mm of space to the bottom of the uprights.
 The back is 26mm on the side beams for a total of 26mm + 20mm total (from the back beam).
 
+## Top
+While I really like the way the hinged TopHat works, I think I'll go with taller side panels, a taller door panel and a fixed top. I haven't had to have access to the top since I built it. I will re-use the hinged top-hat basic sizes though as the connection into the rails via the M5 is solid.
+
 ## Hinged TopHat
-I really like the way the hinged TopHat works and the two positions it can stay in
-Need to determine the # of Mitsumu 2020 beams to order. There is a 2020 TopHat for V0 that I've patterned the following on
+The hinged top hat has two positions it can stay in. There is a 2020 TopHat for V0 that I've patterned the following on
 (was at https://github.com/gsl12/Tiny-M/tree/master/STLs/usermods/2020_Hinged_TopHat_Print)
 
 **The following measurements have not been verified in an actual build.**\

@@ -2,7 +2,7 @@
 - [tiny-m-build](#tiny-m-build)
   * [WORK IN PROGRESS](#work-in-progress)
   * [Power](#power)
-  * [My preliminary BOM](#my-preliminary-bom)
+  * [My BOM](#my-bom)
   * [Build Platform + Plate Information](#build-platform---plate-information)
   * [Stepper Motor Light Reading](#stepper-motor-light-reading)
   * [Frame Assembly](#frame-assembly)
@@ -36,7 +36,7 @@ My version of this is slightly different than the online CAD image. I want to us
 see the cad image at 
 https://github.com/gsl12/Tiny-M
 
-I've finished most of the build.  Working on the door and will start the folding top hat soon.
+I've finished the build. Will probably go with a simpler enclosure rather than the folding top hat, but need to design it still.
 ![tiny-m image](images/tiny-m.jpg)
 
 Many more build pictures at https://photos.app.goo.gl/qUpFSqQ5FszeDbXW6
@@ -45,7 +45,7 @@ The first things I'll link are the Voron V0 build and the Tiny-M repo.
 I'd like to use a small direct hot end instead of the standard Voron V0 Boden so that it will easily print flexable material.
 In addition, I really like the two position hinged TopHat by hartk1213
 
-First off, there is a very active Discord channel for VoronDesign. The users are really helpful and friendly which for a home build
+There is a very active Discord channel for VoronDesign. The users are really helpful and friendly which for a home build
 3d printer is a huge win.
 
 Voron V0 - https://vorondesign.com/voron0
@@ -67,11 +67,12 @@ Many images so far from Xile on Voron group on discord
 ## Power
 Want to use an external 24v supply and then all 24v on the Tiny-M. This means a 24v heated bed which is normally 120v ac. It removed all 120ac from the underside of the build making it a bit safer. Sourcing the bed heater is harder though as is the connection of the power to the chassis.
 
-WORK IN PROGRESS: Finally ordered the DC power but Xmas will delay shipment. Don't really want to manufacture a board just for me unless I really have to......
+Got the DC power using the following.
 
 External Mean Well 220 watt 24v DC power supply https://www.digikey.com/en/products/detail/GST220A24-R7B/1866-2085-ND/7703643?itemSeq=348860603 \
 Power inlet to match - https://www.digikey.com/en/products/detail/KPJX-PM-4S/2092-KPJX-PM-4S-ND/9990081?itemSeq=348766398 \
-Power switch - https://www.digikey.com/en/products/detail/RB141C1000-135/EG5684-ND/8540808?itemSeq=348859736
+Power switch - https://www.digikey.com/en/products/detail/RB141C1000-135/EG5684-ND/8540808?itemSeq=348859736 \
+NOTE: The power switch burned it's light out at 24v, suggest adding a voltage drop resistor.
 
 While I really like the idea of 24v of external power with a distribution via this nifty board, I didn't want to have to manufacture a 4 layer board just for my power input, so I decided to go with the simpler solution above....
 https://github.com/JNP-1/VoronUsers/tree/master/printer_mods/JNP/PCBs/Supply_PCB
@@ -83,7 +84,7 @@ https://www.digikey.com/en/products/detail/VES220PS24/1470-VES220PS24-ND/1044064
 
 Use the following when determining how much power a guage of wire can handle https://www.engineeringtoolbox.com/wire-gauges-d_419.html
 
-## My preliminary BOM
+## My BOM
 https://docs.google.com/spreadsheets/d/1UV62ADl2gtK5vL0fV1nwevR6O9Ppzs0MBe7jnsI-jo4/edit?usp=sharing
 
 ## Build Platform + Plate Information
